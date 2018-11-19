@@ -1,0 +1,3 @@
+---
+redirect: '/konzerte/aktuell'
+---

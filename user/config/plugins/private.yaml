@@ -1,0 +1,37 @@
+enabled: true
+
+routes:
+  login: "/login"
+  logout: "/logout"
+
+# MUST BE AN ALPHANUMERIC CHAR
+# Generator : http://www.sethcardoza.com/tools/random-password-generator/
+session_ss: 5L0N2PDGiVaHXdGiV3favbgbUNsHoqb2KCov0VnE
+
+
+private_site: false
+private_tag: intern
+enable_username: false
+
+users:
+  no_user : 0e51cf80a40bc74d5f7b9b37430de280ce65584a # CCBTagUndNacht
+
+texts:
+  h1 : Interner Bereich
+  h2 : Bitte logge dich ein.
+fields:
+  username:
+    label: "Benutzername"
+    placeholder: "Bitte gib deinen Benutzernamen hier ein..."
+  password:
+    label: "Passwort"
+    placeholder: "Bitte gib das geheime Passwort hier ein..."
+  antispam:
+    label: "Antispam"
+    placeholder: "Please leave this field empty for Antispam"
+  login:
+    label: "Login"
+messages:
+  success: "Du bist jetzt eingeloggt."
+  error: "Ups - hier scheint gerade etwas schief gegangen zu sein. Versuch's nochmal."
+  fail: "Das war leider das falsche Passwort. Bitte versuche es nochmal."
